@@ -50,7 +50,7 @@ const registerUser = asyncHandler(async (req, res) => {
   }
   const mailOptions = {
     from: "anupchaudhary1021@gmail.com",
-    to: "anupchaudhary1021@gmail.com",
+    to: email,
     subject: "OTP verification",
     text: "OTP verification",
     html: `
